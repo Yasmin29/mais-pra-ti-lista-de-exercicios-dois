@@ -4,8 +4,7 @@
 // número aleatório de 1 a 100 e peça ao
 // usuário, para adivinhar. 
 // Use while para repetir até acertar, contando
-// tentativas e exibindo “mais alto” ou “mais baixo” 
-// a cada palpite errado.
+// tentativas e exibindo “mais alto” ou “mais baixo” a cada palpite errado.
 
 function gerarNumero(min, max){
     return Math.floor(Math.random() * (max - min + 1)) + min 

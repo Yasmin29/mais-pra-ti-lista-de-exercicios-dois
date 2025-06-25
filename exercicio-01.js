@@ -8,7 +8,6 @@
 //Validar se o ano é bissexto, se ele for o mês 2 vai até dia 29
 //Se não ele vai até dia 28
 
-
 function ehDataValida(dia, mes, ano){
     if(mes <= 12 & mes >= 1) { 
         if(mes != 2){ 
